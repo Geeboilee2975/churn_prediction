@@ -4,6 +4,7 @@
 This project aims to predict customer churn (the likelihood of a customer leaving a service) using machine learning. By identifying at-risk customers, businesses can take proactive measures to improve retention.
 
 The application is deployed using Streamlit Cloud and can be accessed here:
+https://churnprediction-nhp84jp436ykwogcffxteb.streamlit.app/
 
 
 ## PROBLEM STATEMENT              
@@ -82,9 +83,36 @@ churn_prediction_project/
 
 
 ## TECHNOLOGY USED
-python 
-pandas
-seaborn sickit-learn
-matplotlib
-seaborn
+. python 
+. pandas
+. seaborn sickit-learn
+. matplotlib
+. seaborn
+ 
+## Application Interface
+
+# Customer Churn Prediction App
+
+![Application Interface](churnpic.png)
+
+
+
+## Key Highlights
+. End to End Machine Learning Pipeline.
+. Business Impact.
+. Technical Performance and Scalability.
+. Interactive Predictive Analysis.
+
+
+## Future Improvements
+
+. Create a system where the model automatically retrains itself if new data is added to the database.
+. Add a login screen so only authorized employees can access the sensitive customer data.
+. Allow a manager to upload a list of 1,000 customers and download a new CSV with a "Risk Score" column added to every row.
+
+
+## Deployment
+
+The project is deployed using Streamlit Community Cloud.
+The app loads trained models from serialized .pkl files and performs real-time predictions based on user input.
 
