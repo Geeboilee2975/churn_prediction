@@ -1,0 +1,22 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (often too large for GitHub)
+# Uncomment the line below if you want to keep data local only
+# *.csv
+# *.xlsx
+# *.pkl
+
+# OS generated files
+.DS_Store
+Thumbs.db
