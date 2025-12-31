@@ -101,7 +101,7 @@ churn_prediction_project/
 
 # CUSTOMER CHURN PREDICTION APP
 
-![Application Interface](https://github.com/Geeboilee2975/churn_prediction/blob/main/SAIKET/churnpic.png)
+![Application Interface](./churnpic.png)
 
 
 
