@@ -101,14 +101,20 @@ churn_prediction_project/
 
 # CUSTOMER CHURN PREDICTION APP
 
-![Application Interface](SAIKET/churnpic.png)
+![Application Interface](https://github.com/Geeboilee2975/churn_prediction/blob/main/SAIKET/churnpic.png)
 
 
 
 ## KEY HIGHLIGHTS
 . End to End Machine Learning Pipeline.
+
+
 . Business Impact.
+
+
 . Technical Performance and Scalability.
+
+
 . Interactive Predictive Analysis.
 
 
