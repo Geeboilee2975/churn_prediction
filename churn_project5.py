@@ -3,10 +3,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
-# ==========================================
+
+
 # TASK 1: DATA PREPARATION
 # ==========================================
-# Aim: Load dataset, handle missing values, and encode variables[cite: 41, 44].
+# Aim: To load dataset, handle missing values, and encode variables[cite: 41, 44].
 df = pd.read_csv('customer_churn.csv') 
 df.dropna(inplace=True) 
 
@@ -17,9 +18,9 @@ for col in df.select_dtypes(include=['object']).columns:
 print("Task 1: Data Preparation Complete.")
 
 # ==========================================
-# TASK 2: SPLIT DATA FOR TRAINING AND TESTING
+# TASK 2: SPLITTING DATA FOR TRAINING AND TESTING
 # ==========================================
-# Aim: Divide data into 80% training and 20% testing sets[cite: 49, 51].
+# Aim: Divided data into 80% training and 20% testing sets[cite: 49, 51].
 X = df.drop('Churn', axis=1) 
 y = df['Churn'] 
 
@@ -74,3 +75,14 @@ print(f"F1-Score:  {f1_score(y_test, y_pred):.4f}")
 print(f"ROC-AUC:   {roc_auc_score(y_test, y_pred_proba):.4f}")
 
 print("\nAll tasks completed successfully!")
+
+import joblib
+
+# 1. Save the model
+joblib.dump(model, 'churn_model.pkl')
+
+# 2. Because you used LabelEncoder on 'Contract', we need to save 
+# how it mapped the words (e.g., 'One year' -> 1). 
+# For 3 features, it's easier to just remember the mapping:
+# Month-to-month = 0, One year = 1, Two year = 2
+print("Model saved as churn_model.pkl")
