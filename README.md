@@ -83,36 +83,50 @@ churn_prediction_project/
 
 
 ## TECHNOLOGY USED
-. python 
+. python
+
+
 . pandas
+
+
 . seaborn sickit-learn
+
+
 . matplotlib
+
+
 . seaborn
  
-## Application Interface
+## APPLICATION INTERFACE
 
-# Customer Churn Prediction App
+# CUSTOMER CHURN PREDICTION APP
 
-![Application Interface](churnpic.png)
+![Application Interface](SAIKET/churnpic.png)
 
 
 
-## Key Highlights
+## KEY HIGHLIGHTS
 . End to End Machine Learning Pipeline.
 . Business Impact.
 . Technical Performance and Scalability.
 . Interactive Predictive Analysis.
 
 
-## Future Improvements
+## FUTURE IMPROVEMENTS
 
 . Create a system where the model automatically retrains itself if new data is added to the database.
+
+
 . Add a login screen so only authorized employees can access the sensitive customer data.
+
+
 . Allow a manager to upload a list of 1,000 customers and download a new CSV with a "Risk Score" column added to every row.
 
 
-## Deployment
+## DEPLOYMENT
 
 The project is deployed using Streamlit Community Cloud.
+
+
 The app loads trained models from serialized .pkl files and performs real-time predictions based on user input.
 
