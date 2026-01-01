@@ -96,6 +96,10 @@ churn_prediction_project/
 
 
 . seaborn
+
+
+.joblib
+
  
 ## APPLICATION INTERFACE
 
