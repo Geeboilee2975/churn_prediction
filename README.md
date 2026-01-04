@@ -72,8 +72,8 @@ Confusion matrix.
 
 ## PROJECT STRUCTURE
 churn_prediction_project/
-├── .github/              # (Optional) Created by GitHub for workflows
-├── data/                 # (Optional) Folder to store your CSV file
+├── .github/              #  Created by GitHub for workflows
+├── data/                 #  Folder to store your CSV file
 │   └── Telco_Customer_Churn_Dataset.csv
 ├── app.py                # The main Streamlit web application
 ├── train.py              # The script used to train the model
